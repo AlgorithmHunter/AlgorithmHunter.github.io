@@ -1,0 +1,96 @@
+:root{
+    --AllShadow:3.2px solid white;
+}
+
+.Profile td{
+vertical-align:middle;
+}
+.Profile td:first-child img{
+ border-radius:50%;
+ width:70px;
+ height:70px;
+}
+.Profile td:last-child{
+    text-align: left;
+    padding: 0.4em;
+}
+.portfolio-box, .cus-btn {
+    box-shadow: 0 0 4px black;
+}
+    .portfolio-box{
+  margin:4px;
+    }
+.cus-btn {
+    display: block !important;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+  
+}
+        .cus-btn:hover {
+            background-color: rgba(244, 98, 58, 0.9 ) !important;
+            transition: opacity 0.25s ease !important;
+            color:white;
+        }
+.cus-col {
+    display: block;
+    padding: 2.5em;
+    width: 100%;
+    position: relative !important;
+    box-sizing: padding-box;
+}
+.name-x1{
+    color:#f4623a;
+}
+.site-content{
+    box-shadow:0 0 2px black;
+    margin-top:100px !important;
+}
+  
+    .Project-Link {
+        /* color:dodgerblue;*/
+        border-bottom: 3.2px solid white;
+    }
+.project-name{
+    font-weight: bold;
+}
+.Project-Link:hover{
+    border-bottom-color: dodgerblue;
+    color:dodgerblue;
+}
+.empty-image{
+    height:350px;
+}
+.Social-Links-Container img{
+    border-radius:50%;
+  box-shadow: 0 0 10px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50px;
+height:50px;
+background-color:black;
+border:1.0px solid #343a40;
+
+}
+
+.Social-Links-Container{
+   float:left;
+}
+.Social-Links-Main-Container{
+margin-left: 80px;
+}
+.Social-Links-Container table{
+   text-align: center;
+  width:100px !important;
+  font-weight: bold;
+ table-layout: fixed;
+}
+
+.Social-Links-Container img:hover{
+box-shadow: 0 0 20px black;
+}
+.control-wrap{
+    margin-left:auto;
+    margin-right:auto;
+}
