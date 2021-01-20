@@ -10152,9 +10152,20 @@ header.masthead h1 {
     .btn {
         padding: 1.2em !important;
     }
+  .txt-small-1{
+    font-size:1rem !important;
+  }
+  .img-small-1-ratio-1{
+  height: 50px !important;
+  width: 50px !important;
+}
 }
 @media(max-width:320px){
 .img-small-1-ratio-1{
-  height: 50px !important;
-  width: 50px !important;
+  height: 40px !important;
+  width: 40px !important;
+}
+   .txt-small-1{
+    font-size:0.8rem !important;
+  }
 }
