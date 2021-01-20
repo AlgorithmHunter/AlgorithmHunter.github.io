@@ -10153,3 +10153,8 @@ header.masthead h1 {
         padding: 1.2em !important;
     }
 }
+@media(max-width:320px){
+.img-small-1-ratio-1{
+  height: 50px !important;
+  width: 50px !important;
+}
