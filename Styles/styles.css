@@ -10148,6 +10148,26 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+.skills-grid{
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  grid-gap:10px;
+  margin-left:4px;
+  margin-right: 4px;
+}
+@media  (max-width:992px){
+  .skills-grid{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+}
+@media  (max-width:575px){
+  .skills-grid{
+    display: grid;
+    grid-template-columns: repeat(1,minmax(0,1fr));
+  }
+}
+
 @media  (max-width:480px){
     .btn {
         padding: 1.2em !important;
